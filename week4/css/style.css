@@ -1,0 +1,53 @@
+
+body{
+	font-family: Arial;
+	margin:5%;
+}
+
+header{
+	font-weight: 800;
+	font-size: 30px;
+	text-align: center;
+	/*font-family: 'Short Stack', cursive;*/
+	/*font-family: 'Modern Antiqua', cursive;*/
+	/*font-family: 'Cabin Condensed', sans-serif;
+	font-weight: : 700;*/
+	font-family: 'Pacifico', cursive;
+	
+}
+
+h1,h2,h3,h4,h5,h6,p{
+	text-align: center;
+
+	
+}
+
+ul{
+	list-style-type: circle;
+}
+
+.description{
+	/*font-style: italic;*/
+}
+
+#list{
+	
+	padding: 15px;
+	width:40%;
+	margin: auto;
+	border-style: solid;
+	border-color:#5599DD;
+	text-align: left;
+	font-family: 'Economica', sans-serif;
+	font-size:20px;
+
+}
+
+#photo{
+	max-width:100%;
+	max-height:100%;
+}
+
+#contact{
+	color:#5599dd;
+}
