@@ -30,6 +30,10 @@ ul{
 	/*font-style: italic;*/
 }
 
+#navtop{
+	text-align: right;
+}
+
 #list{
 	
 	padding: 15px;
