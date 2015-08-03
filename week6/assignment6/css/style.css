@@ -1,0 +1,123 @@
+*{box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+h3{
+	font-size: 1.25em;
+	font-weight: 700;
+	margin: .25em 0;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 16;
+}
+
+
+#navbar {
+	width: 100%;
+	/*height: 3%;*/
+	padding: 3%;
+	background-color: #e0e0e0;
+	display: block;
+	text-decoration: none;
+}
+
+
+
+
+#logo {
+	float: left;
+	width: 15%;
+	height: 100%;
+	background-color: #707070;
+}
+
+#navunit{
+	float:right;
+	width: 22%;
+}
+
+
+
+.unit{
+	padding: 1%;
+	margin: auto;
+	color: black;
+	text-decoration: none;
+	background-color: #707070;
+	text-transform: uppercase;
+}
+
+nav a: hover{
+	color: white;
+	border-bottom: 3px solid #c7009D;
+}
+
+#banner{
+	clear:both;
+	width: 100%;
+	background-color:white;
+	height:200px;
+	border: 2px solid black;
+	margin:20px 0 40px 0;
+}
+
+.skillunit{
+	width:50%;
+	padding: 8px;
+/*	margin: 10px;*/
+	border: 2px solid black;
+	float:left;
+}
+
+/*main{
+	padding-bottom: 10px;
+	border-bottom:3px solid black;
+}*/
+
+
+#profile{
+	padding: 10px;
+	margin: 50px 0 50px 0;
+	clear:both;
+}
+
+#profiledescription{
+	width:50%;
+	float:left;
+}
+
+#profilepicture{
+	width:50%;
+	float:right;
+}
+
+
+#contact{
+	clear:both;
+	display:block;
+	border-bottom: 3px solid black;
+	padding: 10px;
+	margin: 5px 0;
+}
+
+#quote{
+	display: block;
+	width:100%;
+	background-color: #e0e0e0;
+	padding:5px 0;
+}
+
+
+
