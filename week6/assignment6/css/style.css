@@ -7,6 +7,7 @@ h3{
 	font-size: 1.25em;
 	font-weight: 700;
 	margin: .25em 0;
+	text-transform: uppercase;
 }
 
 .clearfix:after {
@@ -22,6 +23,7 @@ body {
 	font-family: Arial, sans-serif;
 	font-size: 16;
 }
+
 
 
 #navbar {
@@ -40,11 +42,20 @@ nav a:hover{
 }
 
 
-#logo {
+.logo {
 	float: left;
 	width: 15%;
 	/*height: 100%;*/
-	background-color: #707070;
+	}
+
+#logo{
+	width:50px;
+	height: 50px;
+	object-fit: fill;
+}
+
+#name{
+	display:inline;
 }
 
 #navunit{
@@ -66,26 +77,31 @@ nav a:hover{
 
 
 #banner{
-	clear:both;
-	width: 100%;
-	background-color:white;
-	height:200px;
+	display: block;
+	width: 1200px;
+	height: 300px;
+	object-fit: fill;
 	border: 2px solid black;
-	margin:20px 0 40px 0;
+	margin: 40px auto;
 }
 
 .skillunit{
-	width:50%;
+	width:48%;
 	padding: 15px;
-/*	margin: 10px;*/
-	border: 2px solid black;
+	margin: 10px;
+	/*border: 2px solid black;*/
+	background-color: #f0f0f0;
 	float:left;
 }
 
-/*main{
-	padding-bottom: 10px;
-	border-bottom:3px solid black;
-}*/
+.pk1{
+	display: block;
+	width: 500px;
+	height: 300px;
+	object-fit: fill;
+	border: 2px solid black;
+	margin: 5px auto;
+}
 
 
 #profile{
@@ -95,12 +111,15 @@ nav a:hover{
 }
 
 #profiledescription{
-	width:50%;
+	width:70%;
 	float:left;
 }
 
 #profilepicture{
-	width:50%;
+	width:25%;
+	height:200px;
+	object-fit: fill;
+	margin: auto 20px;
 	float:right;
 }
 
@@ -121,12 +140,16 @@ nav a:hover{
 }
 
 .pdes{
-	width: 50%;
+	width: 48%;
+	margin: 20px;
 	float:left;
 }
 
 .ppict{
-	width: 50%;
+	width: 45%;
+	height: 200px;
+	margin: 20px;
+	object-fit: fill;
 	float: right;
 }
 
