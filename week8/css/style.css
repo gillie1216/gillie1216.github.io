@@ -217,6 +217,9 @@ footer a:hover{
 }
 
 @media only screen and (max-width: 600px){
+	body{
+		font-size: 15px;
+		}
 	.productunit{
 		float:none;
 		display: block;
